@@ -1,5 +1,3 @@
-const tail = function(array) {
-  return array.slice(1);
-};
+const tail = (array) => array.slice(1);
 
 module.exports = tail;
