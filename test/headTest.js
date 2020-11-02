@@ -1,6 +1,7 @@
 // FUNCTION IMPORT
 const {assert} = require('chai');
-const head = require('../head');
+const _ = require('../index');
+const head = _.head;
 
 // TEST CODE
 

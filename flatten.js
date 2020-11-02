@@ -14,7 +14,6 @@ const assertArraysEqual = function(array1, array2) {
   }
 };
 
-
 const flatten = function(array) {
   let output = [];
   for (let element of array) {
@@ -27,7 +26,7 @@ const flatten = function(array) {
   return output;
 };
 
-
+module.exports = flatten;
 
 assertArraysEqual(flatten([[1, 2], 3, [4, 5]]), [1, 2, 3, 4, 5]);
 assertArraysEqual(flatten([[1, [22, [222,223], 24]], 3, [4, 5]]), [ 1, 22, 222, 223, 24, 3, 4, 5 ]);

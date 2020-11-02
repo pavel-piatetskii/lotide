@@ -20,7 +20,9 @@ const map = function(array, callback) {
     results.push(callback(item))
   }
   return results;
-}
+};
+
+module.exports = map;
 
 const words = ["ground", "control", "to", "major", "tom"];
 const results1 = map(words, word => word[0]);

@@ -29,6 +29,8 @@ const letterPositions = function(str) {
   return output;
 };
 
+module.exports = letterPositions;
+
 const testLine = "lighthouse in the house";
 
 assertArraysEqual(letterPositions(testLine)['l'], [0]);

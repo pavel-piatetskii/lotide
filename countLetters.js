@@ -20,6 +20,8 @@ const countLetters = function(str) {
   return output;
 };
 
+module.exports = countLetters;
+
 const testLine = "lighthouse in the house";
 assertEqual(countLetters(testLine)['l'], 1);
 assertEqual(countLetters(testLine)['h'], 4);
