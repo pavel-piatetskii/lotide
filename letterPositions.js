@@ -37,3 +37,4 @@ assertArraysEqual(letterPositions(testLine)['l'], [0]);
 assertArraysEqual(letterPositions(testLine)['h'], [3, 5, 15, 18]);
 assertArraysEqual(letterPositions(testLine)['s'], [8, 21]);
 assertArraysEqual(letterPositions(testLine)['e'], [9, 16, 22]);
+console.log(letterPositions(testLine))

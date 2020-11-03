@@ -1,8 +1,8 @@
 {
-  "name": "lotide",
+  "name": "@pavel-piatetskii/lotide",
   "version": "1.0.0",
-  "description": "",
-  "main": "assertArraysEqual.js",
+  "description": "A mini clone of the Lodash (https://lodash.com) library made for learning purposes.",
+  "main": "index.js",
   "directories": {
     "test": "mocha"
   },
@@ -13,7 +13,8 @@
     "type": "git",
     "url": "git+https://github.com/pavel-piatetskii/lotide.git"
   },
-  "author": "",
+  "author": "pavel-piatetskii",
+  "email" : "pavel.piatetskii@gmail.com",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/pavel-piatetskii/lotide/issues"
