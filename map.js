@@ -24,14 +24,14 @@ const map = function(array, callback) {
 
 module.exports = map;
 
-const words = ["ground", "control", "to", "major", "tom"];
-const results1 = map(words, word => word[0]);
-assertArraysEqual(results1, ['g', 'c', 't', 'm', 't']);
-
-const numbers = [-50, 0, 42];
-const results2 = map(numbers, num => num + 100);
-assertArraysEqual(results2, [50, 100, 142]);
-
-const booleans = [true, false];
-const results3 = map(booleans, boolean => !boolean);
-assertArraysEqual(results3, [false, true]);
+// const words = ["ground", "control", "to", "major", "tom"];
+// const results1 = map(words, word => word[0]);
+// assertArraysEqual(results1, ['g', 'c', 't', 'm', 't']);
+// 
+// const numbers = [-50, 0, 42];
+// const results2 = map(numbers, num => num + 100);
+// assertArraysEqual(results2, [50, 100, 142]);
+// 
+// const booleans = [true, false];
+// const results3 = map(booleans, boolean => !boolean);
+// assertArraysEqual(results3, [false, true]);

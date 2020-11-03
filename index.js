@@ -1,3 +1,4 @@
+const assertEqual = require('./assertEqual');
 const countLetters = require('./countLetters');
 const countOnly = require('./countOnly');
 const eqArrays = require('./eqArrays');
@@ -14,6 +15,7 @@ const takeUntil   = require('./takeUntil');
 const without   = require('./without');
 
 module.exports = {
+  assertEqual,
   countLetters,
   countOnly,
   eqArrays,

@@ -35,12 +35,12 @@ const without = function(source, itemsToRemove) {
 
 module.exports = without;
 
-assertArraysEqual(without([1, 2, 3], [2]), [1, 3]);
-assertArraysEqual(without(['Jay', 'Freddie', 'Bob'], ['Freddie', 'John']), ['Jay', 'Bob']);
-assertArraysEqual(without(['1', '2', '3'], ['1','2', 3]), ['3']);
-
-const words = ["hello", "world", "lighthouse"];
-without(words, ["lighthouse"]); // no need to capture return value for this test case
-// Make sure the original array was not altered by the without function
-assertArraysEqual(words, ["hello", "world", "lighthouse"]);
+// assertArraysEqual(without([1, 2, 3], [2]), [1, 3]);
+// assertArraysEqual(without(['Jay', 'Freddie', 'Bob'], ['Freddie', 'John']), ['Jay', 'Bob']);
+// assertArraysEqual(without(['1', '2', '3'], ['1','2', 3]), ['3']);
+// 
+// const words = ["hello", "world", "lighthouse"];
+// without(words, ["lighthouse"]); // no need to capture return value for this test case
+// // Make sure the original array was not altered by the without function
+// assertArraysEqual(words, ["hello", "world", "lighthouse"]);
 

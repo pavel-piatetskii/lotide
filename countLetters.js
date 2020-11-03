@@ -22,8 +22,8 @@ const countLetters = function(str) {
 
 module.exports = countLetters;
 
-const testLine = "lighthouse in the house";
-assertEqual(countLetters(testLine)['l'], 1);
-assertEqual(countLetters(testLine)['h'], 4);
-assertEqual(countLetters(testLine)['o'], 2);
-assertEqual(countLetters(testLine)['e'], 3);
+// const testLine = "lighthouse in the house";
+// assertEqual(countLetters(testLine)['l'], 1);
+// assertEqual(countLetters(testLine)['h'], 4);
+// assertEqual(countLetters(testLine)['o'], 2);
+// assertEqual(countLetters(testLine)['e'], 3);
