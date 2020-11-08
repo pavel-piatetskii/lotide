@@ -1,10 +1,14 @@
 // FUNCTION IMPORT
-const assertEqual = require('../assertEqual');
-const eqArrays = require('../eqArrays');
+const { assert } = require('chai');
+const { eqArrays } = require('../index');
 
 // TEST CODE
-assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true); // => true
-assertEqual(eqArrays([1, 2, 3], [3, 2, 1]), false); // => false
+describe('#eqArrays', () => {
+  it('returns true for deeply equal arrays', () => {
+    assert.strictEqual(eqArrays([[2, 3], [4]], [[2, 3], [4]]), true);
+  });
 
-assertEqual(eqArrays(["1", "2", "3"], ["1", "2", "3"]),true); // => true
-assertEqual(eqArrays(["1", "2", "3"], ["1", "2", 3]), false); // => false
+  it('returns false for non-equal arrays', () => {
+    assert.strictEqual(eqArrays([[2, 3], [4]], [[2, 3], [4, 5]]), false);
+  });
+});
